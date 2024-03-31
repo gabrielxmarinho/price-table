@@ -1,0 +1,143 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+body{
+    background-color: #E8EAFF;
+}
+nav{
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0, 0.2);
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+ul{
+    height: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    list-style-type: none;
+}
+nav .nav-content{
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+nav ul li .nav-content h2:hover , nav ul li .nav-content i:hover{
+    cursor: pointer;
+    color: rgb(98, 100, 230);
+}
+
+nav .nav-content h2{
+    color: rgb(66, 66, 66);
+    margin-left: 40px;
+    margin-right: 5px;
+    font-weight: normal;
+    display: inline;
+}
+
+nav .name-span{
+    display: inline-block;
+}
+
+nav .name-span .name-site{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.plans-description{
+    padding: 0;
+}
+
+.plans-div{
+    text-align: center;
+}
+
+.plans-div .plans{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.plans-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.plans-div .botao-ready{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:7px 25px;
+    background-color: #CD68ED;
+    border-radius: 25px;
+    border-color: #CD68ED;
+    color: white;
+}
+.table-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.table-div table{
+    margin-top:20px;
+    border-collapse: collapse;
+}
+.table-div table tbody{
+    background-color: white;
+}
+.table-div table .table-head{
+    background-color: white;
+    position:sticky;
+}
+.table-div table tr th h2,.table-div table tr td h2{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-div table tr th ,.table-div table tr td{
+    padding: 10px 0;
+    width: 230px;
+    border:solid 1px rgba(0, 0, 0, 0.3);
+}
+.table-div table tbody tr .table-th-div{
+    padding: 10px 0;
+}
+.table-div table tr th h3,.table-div table tr td h3{
+    color: rgb(66, 66, 66);
+    font-weight: normal;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-div table tr th .table-bar{
+    font-size: larger;
+    color: rgba(66, 66, 66, 0.3);
+}
+.table-div table tr th .table-th-div h1{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+.table-div table tr th .table-th-div .price h4{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: small;
+}
+.table-div table tr th .table-th-div .money{
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: small;
+}
+.table-div table tr td{
+    text-align: center;
+}
